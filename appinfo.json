@@ -11,17 +11,17 @@
             {
                 "file": "images/menu_icon.png",
                 "name": "IMAGE_MENU_ICON",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/logo_splash.png",
                 "name": "IMAGE_LOGO_SPLASH",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/tile_splash.png",
                 "name": "IMAGE_TILE_SPLASH",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "fonts/UbuntuMono-Regular.ttf",
@@ -32,26 +32,31 @@
                 "file": "images/icon.png",
                 "menuIcon": true,
                 "name": "IMAGES_ICON_PNG",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/aberto.png",
                 "name": "IMAGES_ABERTO_PNG",
-                "type": "png"
+                "type": "bitmap"
             },
             {
                 "file": "images/fechado.png",
                 "name": "IMAGES_FECHADO_PNG",
-                "type": "png"
+                "type": "bitmap"
             }
         ]
     },
     "sdkVersion": "3",
     "shortName": "Garoa Status",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "71428049-13d1-4528-b45e-fe9bf3ae4377",
     "versionCode": 1,
     "versionLabel": "1.1",
     "watchapp": {
+        "hiddenApp": false,
         "watchface": false
     }
 }
