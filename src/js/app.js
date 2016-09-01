@@ -45,7 +45,7 @@ loadingCard.add(loaderW);
 
 loadingCard.on('show', function(e) {
 	setTimeout(function () {
-		verificaStatus();    
+		verificaStatus();
 	}, 1000);
 });
 loadingCard.show();
@@ -57,10 +57,10 @@ function verificaStatus() {
 			var banner = "";
 
 			if (json.open) {
-				msg = "O garoa esta aberto";
+				msg = "O Garoa está aberto!";
 				banner = "images/aberto.png";
 			} else {
-				msg = "O garoa esta fechado";
+				msg = "O Garoa está fechado!";
 				banner = "images/fechado.png";
 			}
 
@@ -68,7 +68,7 @@ function verificaStatus() {
 				backgroundColor: 'white',
 				fullscreen: true
 			});
-			 
+
 			var titleI = new UI.Text({
 				position: new Vector2(0, 0),
 				size: new Vector2(144, 168),
@@ -77,7 +77,7 @@ function verificaStatus() {
 				color: 'black',
 				textAlign: 'center'
 			});
-			 
+
 			var imageI = new UI.Image({
 				position: new Vector2(22, 35),
 				size: new Vector2(100, 100),
@@ -94,7 +94,7 @@ function verificaStatus() {
 				color: 'black',
 				textAlign: 'center'
 			});
-			
+
 			loadingCard.hide();
 
 			statusCard.add(titleI);
